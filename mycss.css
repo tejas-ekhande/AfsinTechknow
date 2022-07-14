@@ -1,0 +1,32 @@
+.blogh {
+    padding: 7rem;
+    margin-left: 7rem;
+}
+
+#para {
+    padding: 1rem;
+    margin-left: 13rem;
+    margin-top: -5rem;
+}
+
+#para2 {
+    padding: 1rem;
+    margin-left: 13rem;
+}
+
+.service {
+    padding: 5rem;
+    /* margin: auto;
+    margin-top: 7rem; */
+}
+
+.service h2 {
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.servicecont {
+    padding: 5rem;
+    margin-top: -8rem;
+    margin-left: 5.9rem;
+}

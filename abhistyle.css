@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: rgb(122, 122, 122);
+}
+.heading-color {
+  font-size: medium;
+  color: rgb(110, 193, 228);
+}
+.paraent-box {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 10rem;
+  margin-top: 3rem;
+}
+.heading {
+  margin-bottom: 1rem;
+  
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.content {
+  flex: 1.5;
+}
+.content p {
+  margin-bottom: 1rem;
+  text-indent: 2em;
+}
+p {
+  font-size: 17px;
+  line-height: 30px;
+}
+/* .image {
+  flex: 1.4;
+  padding: 15px; */
+  /* margin-bottom: 15px; */
+/* } */
+
+#topimg{
+  /* margin-top: 20px; */
+  flex: 1.4;
+  padding: 1px;
+}
+
+#bottomimg{
+  flex: 1.4;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.application-heading {
+  margin-bottom: 25px;
+  color: rgb(110, 193, 228);
+}
+.application-list ul {
+  flex: 1;
+  padding-inline-start: 0px;
+  padding-left: 0px;
+}
+.application-list-row ul li {
+  list-style-type: square;
+
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 27px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: square;
+  text-align: left;
+  width: 616.96875px;
+}
+
+#ansyshead{
+  font-size: xx-large;
+}
+
+#structurehead{
+  color: rgb(110, 193, 228);
+}
+
+.container{
+  margin-top: 20 px;
+}
+#sem{
+  padding: 1px;
+  margin: auto;
+}
+@media screen and (max-width: 850px) {
+  .row {
+    flex-direction: column;
+  }
+}
